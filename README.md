@@ -419,7 +419,7 @@ python scripts/run_demonstration.py
 
 # 👨‍💻 Author
 
-**Arpit Pandey**  
+**Aashish**  
 B.Tech Computer Science Engineering  
 *Artificial Intelligence • Embedded IoT • Intelligent Transportation Systems • Distributed Systems*
 
