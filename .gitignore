@@ -1,0 +1,63 @@
+# Python virtual environments
+flowsync_env/
+.venv/
+venv/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Database files
+*.db
+*.sqlite3
+
+# AI model weights and generated artifacts
+*.pt
+*.pth
+*.onnx
+*.engine
+models/weights/
+
+# SUMO simulation files (allow essential network and route definitions)
+*.trip.xml
+*.fcd.xml
+*.log.xml
+*.sqlite
+!simulation/sumo/network/*.net.xml
+!simulation/sumo/routes/*.rou.xml
+!simulation/sumo/scenarios/*.rou.xml
+!simulation/sumo/test/*.net.xml
+!simulation/sumo/test/*.rou.xml
+
+# Frontend
+node_modules/
+.next/
+out/
+dist/
+build/
+
+# Docker
+*.pid
+
+# Operating system and editors
+.DS_Store
+.vscode/
+.idea/
+
+# Temporary files
+tmp/
+temp/
